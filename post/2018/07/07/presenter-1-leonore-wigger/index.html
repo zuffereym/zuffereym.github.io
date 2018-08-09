@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interview with Leonore Wigger | R-Ladies Lausanne</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/v4-shims.js"></script>
+     
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/post/">News &amp; Blogposts</a></li>
+      
+      <li><a href="/community/">Community</a></li>
+      
+      <li><a href="/events/">Events</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Interview with Leonore Wigger</span></h1>
+
+
+
+<h2 class="date">2018/07/07</h2>
+</div>
+
+
+<main>
+
+
+<blockquote>
+<p><em>The learning process is always two fold. On the one side it&rsquo;s really just learning about statistical concepts and methods, but then on the other hand it&rsquo;s also about to program the analysis in R.</em></p>
+</blockquote>
+
+<p>At our very <strong>first meetup</strong>, <strong>Leonore Wigger</strong> <a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1113974&amp;LanCode=37"><i class="far fa-address-card"></i></a> gave a short presentation on how to arrange multiple ggplot plots onto multipage PDFs.</p>
+
+<p><a href="https://github.com/rladies/meetup-presentations_lausanne/raw/master/20180201_kickoff/2018-02-01-lightning_multipage_pdf_lw.pdf"><img src="/files/img_slides.png" alt="Slides" height="70" /></a></p>
+
+<p><img src="/files/2018-02-01-kickoff/DSC02007 (1).png" alt="-" height="300" /></p>
+
+<h4 id="r-ladies-lausanne-what-is-the-work-that-you-do">R-Ladies Lausanne: What is the work that you do?</h4>
+
+<p><u>Leonore Wigger</u>: I work 50% at the <a href="https://sib.swiss/">Swiss Institute of Bioinformatics</a> and the other 50% at the University of Lausanne, at the <a href="https://www.unil.ch/gtf/en/home.html">Lausanne Genomic Technologies Facility</a>, which is a service provider for RNA and DNA analysis. My main activities are the statistical analysis of gene expression data and of lipidomics and metabolomics data. For the users of the service platform at the University I do mostly small routine statistical analyses of gene expression data. The facility has a wet lab, where experiments that involve special machines and knowhow are performed. I get the data from these experiments and do a first analysis. At the Swiss Institute of Bioinformatics, I spend most of my time on long term research projects. I am assigned to multiple projects at the same time. Currently, most of this work is related to diabetes. I am involved in a couple of very large European collaborations between several academic institutions and private companies. We are trying to find lipids or other molecules circulating in the blood that can serve as biomarkers for diabetes.</p>
+
+<h4 id="rll-what-do-you-use-r-for-at-work">RLL: What do you use R for at work?</h4>
+
+<p><u>LW</u>: All my scripts are in R. I use R for three things: data processing, statistical tests and graphics.</p>
+
+<h4 id="rll-you-mentioned-that-you-do-the-statistical-analyses-in-the-lausanne-genomic-technologies-facility-do-you-use-automated-reporting-for-that-in-r">RLL: You mentioned that you do the statistical analyses in the Lausanne Genomic Technologies Facility. Do you use automated reporting for that in R?</h4>
+
+<p><u>LW</u>: I use knitr and R Markdown, but it’s not completely automated. I have standard building blocks for my reports, and from these I generate a final report by removing or adding blocks to tailor the report.</p>
+
+<h4 id="rll-where-and-when-did-you-learn-r">RLL: Where and when did you learn R?</h4>
+
+<p><u>LW</u>: My very first contact with R was during my Master thesis, but I really only used it to produce some boxplots. After that, I learned R on the job here. I started here 7 years ago with my extremely limited knowledge and my boss gave me his examples and his collection of functions to get started.</p>
+
+<h4 id="rll-did-you-find-it-easy-to-learn-r-on-the-job">RLL: Did you find it easy to learn R on the job?</h4>
+
+<p><u>LW</u>: It was ok. It was not the first programming language that I learned. And the analyses were all very standardized. So actually that type of work was good to slowly get into R. For a long time, my knowledge of R stayed pretty limited because I never really took the time to learn more complex things. Only during the last one or two years did I begin to venture further and to look for things that expanded my R vocabulary.</p>
+
+<h4 id="rll-what-are-your-favorite-r-tools">RLL: What are your favorite R tools?</h4>
+
+<p><u>LW</u>: The one I use most often for gene expression analysis is the Bioconductor package called <a href="https://bioconductor.org/packages/release/bioc/html/limma.html">limma</a>. This is my main tool. It’s the one I “grew up with”.</p>
+
+<p>For the same purpose (analysis of gene expression) I use <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a>. I use it much less often than limma, but the reason why I mention it as a favorite is that they do an excellent job with the vignettes and documentation, and they update it constantly as well. So every time I check, there is something new and useful.</p>
+
+<p>Lastly I’d like to mention two packages that I used a lot recently and that make my work easier when I am using statistical functions from R base.</p>
+
+<p>One of them is the package broom, and out of this one I especially like the function tidy. Small and simple, but extremely useful. Tidy is a function that takes the output of something like <code>lm()</code> and turns it into a data frame. The other one that I currently like to use is multcomp, especially the function <a href="https://www.rdocumentation.org/packages/multcomp/versions/1.4-7/topics/glht">glht</a>, which is a nice tool for extracting contrasts from linear models.</p>
+
+<h4 id="rll-what-resources-do-you-use-when-you-get-stuck">RLL: What resources do you use when you get stuck?</h4>
+
+<p><u>LW</u>: Of course I use R-help, Stack Overflow and Google.</p>
+
+<p>But there are a few more things to say. Sometimes I ask my coworkers about things that I see them do. This is super relevant and important. And it goes both ways – they ask me too.</p>
+
+<p>Twice I posted a question to a forum. These questions were about the usage and behavior of very specific functions in very specific packages. Each time I was hoping very much that the author of the package would respond to me, and in both cases they did. They gave me the perfect answer that I was looking for. This was very cool.</p>
+
+<p>A few times I have also used books. One time I was using a package extensively for a bigger project, and after a while I bought the book specifically about this package.</p>
+
+<h4 id="rll-what-would-you-like-to-learn-in-r">RLL: What would you like to learn in R?</h4>
+
+<p><u>LW</u>: My main battles are always how to specify statistical models correctly and how to read and interpret the output correctly. I am using linear and logistic regression models, and sometimes linear mixed effect models. Every time I use them I still have plenty of open questions and my aspiration is to get more proficient.</p>
+
+<p>The next thing I am planning to get more into are generalized linear mixed models. The learning process is always two-fold. On the one hand it’s about statistical concepts and methods independently of any programming language, but on the other hand it’s also about how to program the analysis in R.</p>
+
+<h4 id="rll-what-are-tools-that-keep-your-day-smooth">RLL: What are tools that keep your day smooth?</h4>
+
+<p><u>LW</u>: For programming in R, I use RStudio. I write most of my code in R Markdown documents. Sometimes I make reports with knitr out of them, but not always. I also use RStudio’s integrated access to git. I much appreciate how simple it is to use.</p>
+
+<p>I work on a Windows machine and would also like to say a word about a tool that has nothing to do with R. It is MobaXterm. This is a terminal for Windows. The two functionalities that I use: It gives me many Linux commands on my Windows machine and it allows me to connect to remote machines via SSH.</p>
+
+<h4 id="rll-what-motivated-you-to-give-a-talk-at-r-ladies-lausanne">RLL: What motivated you to give a talk at R-Ladies Lausanne?</h4>
+
+<p><u>LW</u>: Sarvenaz asked me if I wanted to give a short talk at the first R-ladies meeting. I took a long time to respond to her request. In the end, my principal motivation to do it was to show my appreciation for this new initiative.</p>
+
+<h4 id="rll-and-we-appreciated-it-thank-you-and-thank-you-for-taking-time-to-do-this-interview">RLL: &hellip;and we appreciated it! Thank you! And thank you for taking time to do this interview!</h4>
+
+<p><strong>Technical note:</strong> <em>This is a transcription of a recorded interview between Leonore and Sina. Additionally, Lenore provided the answers to the questions in written form. Some text was changed for clarification.</em></p>
+
+</main>
+
+<footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; R-Ladies Lausanne 2018
+  
+
+  <a href="mailto:lausanne@rladies.org"><i class="fa fa-envelope"></i></a>
+ <a href="https://www.meetup.com/rladies-lausanne/"><i class="fab fa-meetup"></i></a>
+  <a href="https://github.com/rladies/meetup-presentations_lausanne"> <i class="fab fa-github-square"></i></a>
+ <a href="https://twitter.com/rladieslausanne"> <i class="fab fa-twitter"></i></a>
+ <a href="https://www.facebook.com/RLadiesLausanne/"> <i class="fab fa-facebook-square"></i></a>
+  </footer>
+  </body>
+</html>
+

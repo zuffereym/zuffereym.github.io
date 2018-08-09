@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/2018/08/03/news-august-2018/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/07/31/interview-elizaveta-semenova/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/07/07/presenter-1-leonore-wigger/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/05/10/presenter-2-elisabeth-dahlqwist/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018/05/10/news-may-2018/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bioinformatics/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/biostatistics/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/community/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/community/</loc>
+  </url>
+  
+  <url>
+    <loc>/events/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ggplot2/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/interview/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/interview/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/news/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/news/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stan/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

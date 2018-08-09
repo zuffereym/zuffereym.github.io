@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stan on R-Ladies Lausanne</title>
+    <link>/tags/stan/</link>
+    <description>Recent content in Stan on R-Ladies Lausanne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/stan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interview with Elizaveta Semenova</title>
+      <link>/post/2018/07/31/interview-elizaveta-semenova/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/07/31/interview-elizaveta-semenova/</guid>
+      <description>I think there is a lot of power in the Bayesian approach. The problem is the high entrance threshold due to the computational issues that it poses. So I am always very happy to talk about the benefits of Bayesian statistics and show how simple a model can look like.
+ In past April, Elizaveta Semenova  gave an introduction to Bayesian inference in R, using Stan at our third meetup.</description>
+    </item>
+    
+  </channel>
+</rss>

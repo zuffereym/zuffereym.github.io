@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interview with Elizaveta Semenova | R-Ladies Lausanne</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/v4-shims.js"></script>
+     
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/post/">News &amp; Blogposts</a></li>
+      
+      <li><a href="/community/">Community</a></li>
+      
+      <li><a href="/events/">Events</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Interview with Elizaveta Semenova</span></h1>
+
+
+
+<h2 class="date">2018/07/31</h2>
+</div>
+
+
+<main>
+
+
+<blockquote>
+<p><em>I think there is a lot of power in the Bayesian approach. The problem is the high entrance threshold due to the computational issues that it poses. So I am always very happy to talk about the benefits of Bayesian statistics and show how simple a model can look like.</em></p>
+</blockquote>
+
+<p>In past April, Elizaveta Semenova  <a href="https://twitter.com/liza_p_semenova"><i class="fab fa-twitter"></i></a><a href="https://www.swisstph.ch/en/staff/profile/people/elizaveta-semenova/"><i class="far fa-address-card"></i></a> gave an introduction to Bayesian inference in R, using <a href="http://mc-stan.org/">Stan</a> at our third meetup. In the meantime we had the chance to chat with her about her background and current work.</p>
+
+<p><a href="https://htmlpreview.github.io/?https://github.com/rladies/meetup-presentations_lausanne/master/20180413_bayesian/elizavetasemenova-bayesian-stan/presentationHTML.html#/" rel="noopener noreferrer" target="_blank"><img src="/files/img_slides.png" alt="Slides" height="70" /></a></p>
+
+<p><a href="https://github.com/rladies/meetup-presentations_lausanne/tree/master/20180413_bayesian/elizavetasemenova-bayesian-stan"><img src="/files/img_material.png" alt="material" height="70" /></a></p>
+
+<p><figure>
+  <img src="/files/2018-04-13-bayesian/Liza1.png" alt="Elizaveta" height="300" />
+  <figcaption><em>Elizaveta speaking at the <a href="https://www.appliedmldays.com/workshop_sessions/machine-learning-for-news-theory-applications-and-visualisation-in-python.1">AMLD 2018</a>.</em></figcaption>
+</figure></p>
+
+<h4 id="r-ladies-lausanne-can-you-tell-us-about-the-work-that-you-do">R-Ladies Lausanne: Can you tell us about the work that you do?</h4>
+
+<p><u>Elizaveta Semenova</u>: Currently I am doing a PhD in Epidemiology and Biostatistics at the <a href="https://www.swisstph.ch/en/">Swiss Tropical Institute of Public Health</a> where I develop novel models for the analysis of surveillance data.
+To be more precise, I study malaria at elimination stage. Historically, there have been cases when malaria came to pretty low levels in some countries but once the efforts were reduced those countries saw resurgence. The question is: what does one need to do, when malaria reaches the elimination stage, to eradicate it? My task is to provide a scientific answer to that, based on statistical modelling.</p>
+
+<h4 id="rll-from-what-countries-do-you-get-data">RLL: From what countries do you get data?</h4>
+
+<p><u>ES</u>: I, specifically, work with the data from Swaziland. This is a special country in the context of malaria. The highest burden of malaria worldwide is in sub-Saharan Africa. While some of the countries there have very high malaria burden and incidence, there are four countries, approaching elimination. And Swaziland is one of them. It is said to be the closest to elimination in the region.</p>
+
+<p>What is also very special, is that they have established a surveillance system capturing precise coordinates of each case. Meaning, for each malaria case they record the GPS coordinates of the household and the day when it occurred. From our western point of view, there may seem to be nothing special in this kind of data, but in terms of malaria this is very unique.  And that&rsquo;s the first country in sub-Saharan Africa where we can get access to this type of data. That is the first time that you can actually analyse this very precise spatio-temporal distribution of cases and gain more understanding of the process.</p>
+
+<h4 id="rll-at-r-ladies-lausanne-you-gave-a-presentation-on-bayesian-modelling-and-stan-how-does-this-play-in-to-your-work">RLL: At R-Ladies Lausanne you gave a presentation on Bayesian modelling and Stan. How does this play in to your work?</h4>
+
+<p><u>ES</u>: Stan is my absolute favourite tool for Bayesian inference. All the models, which will end up being part of my PhD, are formulated in the Bayesian framework. I have explored various tools for Bayesian inference, such as more readily available R packages and popular software.</p>
+
+<p>But then, at the end, once I discovered Stan, I realised that it works best for me. It converges well for some very specific likelihoods, which was problematic in the software that I tried before. And using that other software I would have never be able to write my main PhD paper, which I am finishing now. Stan has this very peculiar sampling algorithm behind it (Hamiltonian Monte Carlo), which makes it very efficient. So Stan is something that, I think, has rescued my PhD.</p>
+
+<h4 id="rll-what-tools-to-you-use-at-work">RLL: What tools to you use at work?</h4>
+
+<p><u>ES</u>: I use R for any data acquisition, data handling, data processing. For modelling I only use Stan. I prepare the data in R, then send it to Stan, get the output from Stan, and do post-processing in R.</p>
+
+<h4 id="rll-and-where-and-when-did-you-learn-r">RLL: And where and when did you learn R?</h4>
+
+<p><u>ES</u>: When I started my PhD here in Basel. But I did encounter programming (Pascal) at school, when I was about 15 years old and was very fond of it. Later I got to know Delphi and C++. Back at University, I studied theoretical mathematics. And I did my diploma (an analogy of a masters) in differential equations. During my Bachelor and Diploma, most things were done with just pen and paper.</p>
+
+<h4 id="rll-what-do-you-appreciate-most-in-r">RLL: What do you appreciate most in R?</h4>
+
+<p><u>ES</u>: I think the simplicity and how easy it is to start. If you use R-Studio as the environment, it is just so simple. If you understand in general how programming works, you do not need to do a lot of installations or set up environments.</p>
+
+<p>You do not need to think &ldquo;oh how do I run this command now from terminal?&rdquo;. And terminals of course terrify beginners. R has a much lower entrance threshold compared to any other tool that is used in statistics. You can start from day one already writing functional programs.</p>
+
+<h4 id="rll-what-would-you-like-to-learn-in-r">RLL: What would you like to learn in R?</h4>
+
+<p><u>ES</u>: I have to confess that I never properly learn ggplot2 in a fluent way.</p>
+
+<h4 id="rll-you-are-not-alone">RLL: You are not alone!</h4>
+
+<p><u>ES</u>: But then, during my PhD I was focussing a lot on modelling and was not keeping up with R development, libraries and productivity tools.</p>
+
+<h4 id="rll-what-motivated-you-to-give-a-talk-at-r-ladies-lausanne">RLL: What motivated you to give a talk at R-Ladies Lausanne?</h4>
+
+<p><u>ES</u>: I was very happy to talk about Bayesian&rsquo;s statistics in general. I&rsquo;m quite passionate about it, but of course I am heavily biased given that this is what I do every day.</p>
+
+<p>I think there is a lot of power in it in Bayesian statistics. The problem is the heavy entrance threshold. So I am always very happy to talk about the benefits of Bayesian statistics and show how easy and simple a model can look like.</p>
+
+<p>In the end, it is not rocket science to make Bayesian inference.</p>
+
+<h4 id="rll-do-you-have-any-free-advertisement-for-a-not-for-profit-organisation">RLL: Do you have any free advertisement for a not-for profit organisation?</h4>
+
+<p><u>ES</u>: I am part of <a href="https://www.womenplusplus.ch/">Women++</a>, an non-profit organisation that aims to increase diversity in tech. After a recent <a href="http://hackandlead.com/">Hackathon</a>, we have now a summer break. But updates will be published on <a href="https://twitter.com/womenplusplus">Twitter</a>, Facebook and LinkedIn.</p>
+
+<h4 id="rll-thank-you-for-taking-time-and-all-the-best-for-the-remaining-time-of-your-phd">RLL: Thank you for taking time and all the best for the remaining time of your PhD!</h4>
+
+<p><strong>Technical note:</strong>
+<em>This interview was recorded by Sina on July 5 and then transcribed. Some text was changed for clarification.</em></p>
+
+</main>
+
+<footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; R-Ladies Lausanne 2018
+  
+
+  <a href="mailto:lausanne@rladies.org"><i class="fa fa-envelope"></i></a>
+ <a href="https://www.meetup.com/rladies-lausanne/"><i class="fab fa-meetup"></i></a>
+  <a href="https://github.com/rladies/meetup-presentations_lausanne"> <i class="fab fa-github-square"></i></a>
+ <a href="https://twitter.com/rladieslausanne"> <i class="fab fa-twitter"></i></a>
+ <a href="https://www.facebook.com/RLadiesLausanne/"> <i class="fab fa-facebook-square"></i></a>
+  </footer>
+  </body>
+</html>
+

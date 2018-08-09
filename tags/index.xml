@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on R-Ladies Lausanne</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on R-Ladies Lausanne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/tags/bayesian/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics</title>
+      <link>/tags/bioinformatics/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biostatistics</title>
+      <link>/tags/biostatistics/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biostatistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>/tags/community/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>/tags/interview/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>/tags/news/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stan</title>
+      <link>/tags/stan/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/stan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

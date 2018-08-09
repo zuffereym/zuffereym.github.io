@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biostatistics on R-Ladies Lausanne</title>
+    <link>/tags/biostatistics/</link>
+    <description>Recent content in Biostatistics on R-Ladies Lausanne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/biostatistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interview with Elizaveta Semenova</title>
+      <link>/post/2018/07/31/interview-elizaveta-semenova/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/07/31/interview-elizaveta-semenova/</guid>
+      <description>I think there is a lot of power in the Bayesian approach. The problem is the high entrance threshold due to the computational issues that it poses. So I am always very happy to talk about the benefits of Bayesian statistics and show how simple a model can look like.
+ In past April, Elizaveta Semenova  gave an introduction to Bayesian inference in R, using Stan at our third meetup.</description>
+    </item>
+    
+    <item>
+      <title>Interview with Elisabeth Dahlqwist</title>
+      <link>/post/2018/05/10/presenter-2-elisabeth-dahlqwist/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/05/10/presenter-2-elisabeth-dahlqwist/</guid>
+      <description>The reason I presented at R-Ladies, is, that when I had done my first shiny app, I felt it was really amazing and I really wanted to share my experience of doing that, because it was quite easy.
+ Elisabeth Dahlqwist  gave an introduction to Shiny at our second R-Ladies Lausanne meetup.
+
+
+Sina R&amp;uuml;eger: What is the work that you do? Elisabeth Dahlqwist: I&amp;rsquo;m a PhD student in Biostatistics at Karoliska Institute in Stockholm.</description>
+    </item>
+    
+  </channel>
+</rss>
